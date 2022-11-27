@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "rqrcode", "~> 2.1"
+
+gem "chunky_png", "~> 1.4"
