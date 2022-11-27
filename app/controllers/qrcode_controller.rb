@@ -19,7 +19,7 @@ class QrcodeController < ApplicationController
       size: 120
     )
     random_code = SecureRandom.hex(8)
-    @qrcode_src = "/github-qrcode#{random_code}.png"
+    @qrcode_src = "/generated/github-qrcode#{random_code}.png"
     IO.binwrite("public#{@qrcode_src}", png.to_s)
 
     # arrumar um jeito de enviar como api aqui

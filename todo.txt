@@ -12,3 +12,4 @@ an mobile app to generate and read qrcodes
 
   * estilizar paginas com bootstrap
 	* build a landing page presenting the idea...
+  * add specs
